@@ -1,11 +1,13 @@
 <html lang="en">
   <head>
-    <title> Login</title>
+    <title>Welcome Page</title>
   </head>
   <body>
-  <h1>Welcome Page</h1>
-    Welcome page is here
-    Name:${name}
-    Password:${password}
+ 
+    <div class="container">
+			<h1>Welcome ${name}</h1>
+			 
+			<a href="list-todo">Manage</a> your todos
+		</div>
   </body>
 </html>
